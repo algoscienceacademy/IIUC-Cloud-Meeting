@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "IIUC Cloud Meet",
+    "slug": "meeting",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    
+    
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shahrearhossain.meeting"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b554a0a8-bfa8-4992-863d-ba139049a5f6"
+      }
+    }
+  }
+}
